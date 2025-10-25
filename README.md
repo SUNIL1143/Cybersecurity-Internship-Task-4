@@ -55,4 +55,4 @@ This image shows the PowerShell test result. The `TcpTestSucceeded: False` line 
 
 ## 5. Summary: How the Firewall Filtered Traffic
 
-In this task, the firewall was configured to filter traffic based on a specific **port number**. I created a rule that instructed the firewall to inspect all **inbound** network packets. If any packet was destined for **TCP port 23**, the firewall's "Block" action was triggered, and the packet was dropped, preventing the connection. This demonstrates basic packet filtering and access control. [cite: 14]
+In this task, the firewall was configured to filter traffic based on a specific **port number**. I created a rule that instructed the firewall to inspect all **inbound** network packets. If any packet was destined for **TCP port 23**, the firewall's "Block" action was triggered, and the packet was dropped, preventing the connection. This demonstrates basic packet filtering and access control. 
